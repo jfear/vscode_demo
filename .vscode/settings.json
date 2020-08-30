@@ -7,8 +7,14 @@
     "python.dataScience.ignoreVscodeTheme": true,
     "python.linting.pylintEnabled": true,
     "python.formatting.provider": "black",
-    "editor.formatOnSave": true,
     "python.formatting.blackArgs": [
-        "--line-length 100"
-    ]
+        "--line-length",
+        "100"
+    ],
+    "editor.formatOnSave": true,
+    "python.linting.pylintUseMinimalCheckers": false,
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestArgs": [
+        "-s"
+    ],
 }
