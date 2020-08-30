@@ -1,0 +1,16 @@
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - black=19.10b0
+  - jupyter=1.0
+  - matplotlib=3.3
+  - notebook=6.1
+  - pandas=1.1
+  - pip=20.2
+  - pylint=2.6
+  - pytest=6.0
+  - python=3.8
+  - pip:
+    - radian==0.5.8

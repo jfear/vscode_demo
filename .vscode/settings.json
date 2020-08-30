@@ -1,0 +1,14 @@
+{
+    "[markdown]": {
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.quickSuggestions": false,
+        "editor.wordWrapColumn": 140,
+    },
+    "python.dataScience.ignoreVscodeTheme": true,
+    "python.linting.pylintEnabled": true,
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "python.formatting.blackArgs": [
+        "--line-length 100"
+    ]
+}
