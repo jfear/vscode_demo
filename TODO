@@ -1,0 +1,28 @@
+Introduction:
+    ☐ Window Layou: Side-bar, Code Editor, Terminal, Output
+    ☐ User Settings, Fold/Workspace Settings, Remote Settings
+    ☐ Plugins
+
+Python Tools:
+    ☐ Intellisense
+    ☐ Snippets
+    ☐ Linting
+    ☐ Autoformat
+    ☐ Pytest
+    ☐ Debugger
+    ☐ Jupyter
+
+R Tools:
+    ☐ Set-up
+    ☐ Intellisense
+    ☐ Snippets
+    ☐ Linting
+    ☐ Debugger
+
+Snakemake Tips and Tricks:
+    ☐ Autoformat
+    ☐ Debbuger
+
+Remote Development:
+    ☐ SSH
+    ☐ Docker Containers
