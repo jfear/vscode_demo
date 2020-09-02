@@ -1,0 +1,72 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "inputs": [
+        {
+            "id": "imageTag",
+            "default": "latest",
+            "description": "version of current build",
+            "type": "promptString"
+        }
+    ],
+    "tasks": [
+        {
+            "label": "Docker Build",
+            "type": "shell",
+            "linux": {
+                "command": "docker",
+                "args": [
+                    "build",
+                    "--pull",
+                    "--rm",
+                    "--build-arg",
+                    "USER_ID=$(id -u)",
+                    "--build-arg",
+                    "GROUP_ID=$(id -u)",
+                    "-f",
+                    "${workspaceFolder}/Dockerfile",
+                    "-t",
+                    "demo:${input:imageTag}",
+                    "${workspaceFolder}"
+                ]
+            },
+            "windows": {
+                "command": "docker.exe",
+                "args": [
+                    "build",
+                    "--pull",
+                    "--rm",
+                    "-f",
+                    "Dockerfile",
+                    "-t",
+                    "demo:${input:imageTag}",
+                    "."
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "clear": true
+            }
+        },
+        {
+            "label": "Docker Run",
+            "type": "shell",
+            "command": "docker",
+            "windows": {
+                "command": "docker.exe"
+            },
+            "args": [
+                "run",
+                "--rm",
+                "-it",
+                "demo:${input:imageTag}"
+            ],
+            "problemMatcher": []
+        }
+    ],
+}
