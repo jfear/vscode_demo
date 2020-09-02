@@ -1,19 +1,20 @@
 Introduction:
-    ☐ Window Layou: Side-bar, Code Editor, Terminal, Output
+    ☐ Window Layout: Side-bar, Code Editor, Terminal, Output, Problems
     ☐ User Settings, Fold/Workspace Settings, Remote Settings
-    ☐ Plugins
+    ☐ Plugins, Extension Settings
+    ☐ Tasks
 
 Python Tools:
     ☐ Intellisense
-    ☐ Snippets
-    ☐ Linting
-    ☐ Autoformat
-    ☐ Pytest
-    ☐ Debugger
-    ☐ Jupyter
+    ☐ Snippets `make_db.py`
+    ☐ Linting `make_db.py`
+    ☐ Autoformat `io.py`
+    ☐ Pytest `tests_io.py`
+    ☐ Debugger `tests_io.py` `script_with_error.py`
+    ☐ SQLite Database `make_db.py`
+    ☐ Jupyter `Move to biowulf`
 
 R Tools:
-    ☐ Set-up
     ☐ Intellisense
     ☐ Snippets
     ☐ Linting
