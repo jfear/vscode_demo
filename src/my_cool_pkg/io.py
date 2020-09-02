@@ -1,6 +1,6 @@
 from pathlib import Path
 
-# Example: uncomment and save
+# TODO: Format on save example
 # CONST = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen"]
 
 
