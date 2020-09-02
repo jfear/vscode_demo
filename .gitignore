@@ -181,3 +181,6 @@ docs/
 
 # translation temp files
 po/*~
+
+# VS Code stuff
+.devcontainer/devcontainer.json
