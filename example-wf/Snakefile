@@ -1,0 +1,12 @@
+# TODO: Autoformat snakemake
+
+
+rule hello_snake:
+    output:
+        touch("/tmp/my_really_cool_output.txt"),
+    params:
+        first_name="Bob",
+        middle_name="Ssssssss",
+        last_name="Snakemake",
+    script:
+        "scripts/hello_snake.py"
