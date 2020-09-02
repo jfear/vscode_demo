@@ -182,5 +182,8 @@ docs/
 # translation temp files
 po/*~
 
+# snakemake
+.snakemake/
+
 # VS Code stuff
-.devcontainer/devcontainer.json
+.devcontainer/
