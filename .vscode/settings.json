@@ -23,7 +23,8 @@
         "**/.hg": true,
         "**/CVS": true,
         "**/.DS_Store": true,
-        "**.snakemake": true
+        "**/.snakemake": true,
+        "**/venv": true
     }
     //TODO: Change Yaml Spacing
 }
