@@ -17,5 +17,13 @@
     "python.testing.pytestArgs": [
         "-s"
     ],
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**.snakemake": true
+    }
     //TODO: Change Yaml Spacing
 }
