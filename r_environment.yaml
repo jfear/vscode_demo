@@ -1,0 +1,11 @@
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - r-base=4
+  - r-essentials
+  - r-languageserver
+  - pip
+  - pip:
+      - radian

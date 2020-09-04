@@ -4,7 +4,6 @@ channels:
   - defaults
 dependencies:
   - python=3.8
-  - r=3.6
   - black
   - jupyter
   - matplotlib
@@ -14,10 +13,6 @@ dependencies:
   - ptvsd
   - pylint
   - pytest
-  - r-knitr
-  - r-languageserver
-  - r-markdown
   - snakemake
   - pip:
-      - radian
       - snakefmt
