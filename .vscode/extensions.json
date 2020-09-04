@@ -10,6 +10,7 @@
 		"redhat.vscode-yaml",
 		"visualstudioexptteam.vscodeintellicode",
 		"alexcvzz.vscode-sqlite",
+		"christian-kohler.path-intellisense",
 		// Markdown
 		"yzhang.markdown-all-in-one",
 		"bierner.github-markdown-preview",
