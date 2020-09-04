@@ -4,6 +4,7 @@
         "editor.quickSuggestions": false,
         "editor.wordWrapColumn": 140,
     },
+    "python.pythonPath": "venv/bin/python",
     "python.dataScience.ignoreVscodeTheme": true,
     "python.linting.pylintEnabled": true,
     "python.linting.pylintUseMinimalCheckers": false,
@@ -23,7 +24,17 @@
         "**/.hg": true,
         "**/CVS": true,
         "**/.DS_Store": true,
-        "**.snakemake": true
-    }
+        "**.snakemake": true,
+        "**/venv": true,
+        "**/rvenv": true
+    },
+    "r.alwaysUseActiveTerminal": true,
+    "r.bracketedPaste": true,
+    "r.lsp.path": "rvenv/bin/R",
+    "r.rterm.linux": "rvenv/bin/radian",
+    "r.rterm.option": [
+        "--r-binary=rvenv/bin/R"
+    ],
+    "r.sessionWatcher": true
     //TODO: Change Yaml Spacing
 }
