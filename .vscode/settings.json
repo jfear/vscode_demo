@@ -15,7 +15,10 @@
     "editor.formatOnSave": true,
     "python.testing.pytestEnabled": true,
     "python.testing.pytestArgs": [
-        "-s"
+        "-s",
+        "--ignore-glob=.*",
+        "--ignore=rvenv",
+        "--ignore=venv"
     ],
     "files.exclude": {
         "**/.git": true,
