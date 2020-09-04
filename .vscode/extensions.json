@@ -1,7 +1,6 @@
 {
 	// See https://go.microsoft.com/fwlink/?LinkId=827846 to learn about workspace recommendations.
 	// Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
-
 	// List of extensions which should be recommended for users of this workspace.
 	"recommendations": [
 		// General
@@ -14,7 +13,6 @@
 		// Markdown
 		"yzhang.markdown-all-in-one",
 		"bierner.github-markdown-preview",
-		"shd101wyy.markdown-preview-enhanced",
 		"bierner.markdown-preview-github-styles",
 		"bierner.markdown-checkbox",
 		"bierner.markdown-mermaid",
@@ -31,7 +29,5 @@
 		"tfehlmann.snakefmt",
 	],
 	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
-	"unwantedRecommendations": [
-
-	]
+	"unwantedRecommendations": []
 }
