@@ -187,4 +187,3 @@ po/*~
 .snakemake/
 
 # VS Code stuff
-.devcontainer/
