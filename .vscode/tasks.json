@@ -25,10 +25,10 @@
                     "--build-arg",
                     "GROUP_ID=$(id -u)",
                     "-f",
-                    "${workspaceFolder}/Dockerfile",
+                    "${workspaceFolder}/environment/Dockerfile",
                     "-t",
                     "demo:${input:imageTag}",
-                    "${workspaceFolder}"
+                    "${workspaceFolder}/environment"
                 ]
             },
             "windows": {
@@ -38,10 +38,10 @@
                     "--pull",
                     "--rm",
                     "-f",
-                    "Dockerfile",
+                    "${workspaceFolder}/environment/Dockerfile",
                     "-t",
                     "demo:${input:imageTag}",
-                    "."
+                    "${workspaceFolder}/environment"
                 ]
             },
             "problemMatcher": [],
