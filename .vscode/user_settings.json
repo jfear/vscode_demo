@@ -1,0 +1,76 @@
+{
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "editor.fontFamily": "'Inconsolata', 'Droid Sans Mono', 'monospace'",
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 0,
+    "editor.tokenColorCustomizations": {
+        "[Material Theme Darker High Contrast]": {
+            "textMateRules": [
+                {
+                    "name": "Doc Strings",
+                    "scope": "string.quoted.docstring",
+                    "settings": {
+                        "foreground": "#ff6f6f",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "name": "Comments",
+                    "scope": [
+                        "comment",
+                        "comment.line",
+                        "comment.block",
+                        "comment.block.documentation",
+                        "punctuation.definition.comment.python"
+                    ],
+                    "settings": {
+                        "foreground": "#ac0000",
+                        "fontStyle": ""
+                    },
+                }
+            ]
+        },
+    },
+    "explorer.decorations.badges": false,
+    "terminal.integrated.fontFamily": "'Fira Mono for Powerline'",
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.lineHeight": 1.1,
+    "editor.minimap.enabled": false,
+    "python.languageServer": "Pylance",
+    "vim.foldfix": true,
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "j"
+            ],
+            "after": [
+                "g",
+                "j"
+            ]
+        },
+        {
+            "before": [
+                "k"
+            ],
+            "after": [
+                "g",
+                "k"
+            ]
+        }
+    ],
+    "files.autoSave": "onFocusChange",
+    "files.trimTrailingWhitespace": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "cSpell.userWords": [],
+    "explorer.confirmDelete": false,
+    "files.eol": "\n",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.dataScience.interactiveWindowMode": "perFile",
+    "window.zoomLevel": 0,
+    "python.dataScience.sendSelectionToInteractiveWindow": true,
+    "python.showStartPage": false,
+    "telemetry.enableCrashReporter": false,
+    "workbench.iconTheme": "eq-material-theme-icons-darker",
+}
